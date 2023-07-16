@@ -9,6 +9,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 
+
 public class DBConnect {
 
 	private static String jdbcURL = "jdbc:mysql://localhost/NYC-hotspots";
@@ -20,7 +21,7 @@ public class DBConnect {
 			HikariConfig config = new HikariConfig();
 			config.setJdbcUrl(jdbcURL);
 			config.setUsername("root");
-			config.setPassword("");
+			config.setPassword("mario");
 			
 			// configurazione MySQL
 			config.addDataSourceProperty("cachePrepStmts", "true");

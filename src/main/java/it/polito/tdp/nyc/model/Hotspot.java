@@ -19,7 +19,7 @@ public class Hotspot {
 	private String NTAName;
 	private int postcode;
 	
-	
+
 
 	public Hotspot(Integer objectId, String borough, String type, String provider, String name, String location,
 			double latitude, double longitude, String location_T, String city, String sSID, String sourceID,

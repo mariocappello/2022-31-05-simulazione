@@ -7,4 +7,5 @@ public class TestDao {
 		System.out.println(dao.getAllHotspot().size());
 	}
 
+	
 }
